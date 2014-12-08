@@ -1,0 +1,19 @@
+{
+    "name": "hn/vfsm-bundle",
+    "type": "library",
+    "description": "virtual finite state machines for symfony",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kay Wienöbst",
+            "email": "kay@hauptsache.net"
+        }
+    ],
+    "require": {
+        "symfony/config": "2.6.*@dev"
+	},
+    "autoload": {
+        "psr-0": { "Hn\\VfsmBundle": "" }
+    },
+    "target-dir": "Hn/VfsmBundle"
+}

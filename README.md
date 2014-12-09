@@ -28,7 +28,7 @@ It has two states: "on" and "off". the initial state is the "off" state. when th
 On entering the "on" state, a timer of 1s is being started. When the timers timeout is reached, the switch is put back to the off position and the machine is set from "on" to "off" state
 
 ```php
- class UselessMachine
+class UselessMachine
 {
 
     const STATE_OFF = 'off';
@@ -39,7 +39,7 @@ On entering the "on" state, a timer of 1s is being started. When the timers time
     const INPUT_TIMEOUT = 'timeout';
 
     const ACTION_START_TIMER = 'start_timer';
-    const ACTION_SWITCH_OFF = 'switch_off'
+    const ACTION_SWITCH_OFF = 'switch_off';
 
      public function __construct()
      {

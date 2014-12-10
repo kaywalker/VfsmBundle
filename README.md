@@ -23,7 +23,7 @@ Add the following dependencies to your projects composer.json file:
 
 ### Useless Machine
 
-The "Useless Machine" is a machine that does no other task, but switching itself of.
+The "Useless Machine" is a machine that does no other task, but switching itself off.
 It has two states: "on" and "off". the initial state is the "off" state. when the switch is set to the on position the machine change from "off" to "on".
 On entering the "on" state, a timer of 1s is being started. When the timers timeout is reached, the switch is put back to the off position and the machine is set from "on" to "off" state
 
